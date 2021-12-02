@@ -1,14 +1,14 @@
 ﻿namespace AdventOfCode2021.Days;
 
 /// <summary>
-/// Class representing the Day 1.
+/// Class representing the advent day 1.
 /// </summary>
 public class Day1 : AdventDay
 {
     private readonly int[] input;
 
     /// <summary>
-    /// Initializes the class representing the Day 1.
+    /// Initializes the class representing the advent day 1.
     /// </summary>
     /// <param name="isExample">Should example input be used.</param>
     public Day1(bool isExample = false) : base(1, isExample)
