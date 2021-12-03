@@ -1,6 +1,4 @@
-﻿using System.Threading.Channels;
-
-namespace AdventOfCode2021.Days;
+﻿namespace AdventOfCode2021.Days;
 
 /// <summary>
 /// Class representing the advent day 2.
