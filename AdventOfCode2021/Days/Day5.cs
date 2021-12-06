@@ -1,6 +1,4 @@
-﻿using System.Diagnostics;
-using System.Drawing;
-using System.Runtime.InteropServices.ComTypes;
+﻿using System.Drawing;
 
 namespace AdventOfCode2021.Days;
 
