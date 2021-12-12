@@ -5,7 +5,7 @@ namespace AdventOfCode2021.Days;
 /// <summary>
 /// Class representing the advent day 3.
 /// </summary>
-public class Day3 : AdventDay
+public class Day03 : AdventDay
 {
     private readonly List<string> input;
 
@@ -13,7 +13,7 @@ public class Day3 : AdventDay
     /// Initializes the class representing the advent day 3.
     /// </summary>
     /// <param name="isExample">Should example input be used.</param>
-    public Day3(bool isExample = false) : base(3, isExample)
+    public Day03(bool isExample = false) : base(3, isExample)
     {
         this.input = this.InputContents
             .Split('\n', StringSplitOptions.RemoveEmptyEntries)

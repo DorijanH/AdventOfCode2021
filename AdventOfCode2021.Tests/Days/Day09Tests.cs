@@ -4,14 +4,14 @@ using Xunit;
 namespace AdventOfCode2021.Tests.Days;
 
 /// <summary>
-/// Advent day 7 tests class.
+/// Advent day 9 tests class.
 /// </summary>
-public class Day7Tests : TestBase
+public class Day09Tests : TestBase
 {
     /// <summary>
-    /// Advent day 7 tests class constructor.
+    /// Advent day 9 tests class constructor.
     /// </summary>
-    public Day7Tests() : base(new Day7(true))
+    public Day09Tests() : base(new Day09(true))
     {
     }
 
@@ -21,7 +21,7 @@ public class Day7Tests : TestBase
     [Fact]
     protected override void FirstPart()
     {
-        Assert.Equal("37", this.AdventDay.SolveFirstPart());
+        Assert.Equal("15", this.AdventDay.SolveFirstPart());
     }
 
     /// <summary>
@@ -30,6 +30,6 @@ public class Day7Tests : TestBase
     [Fact]
     protected override void SecondPart()
     {
-        Assert.Equal("168", this.AdventDay.SolveSecondPart());
+        Assert.Equal("1134", this.AdventDay.SolveSecondPart());
     }
 }

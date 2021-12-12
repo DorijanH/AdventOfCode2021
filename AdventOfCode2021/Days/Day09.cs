@@ -3,7 +3,7 @@
 /// <summary>
 /// Class representing the advent day 9.
 /// </summary>
-public class Day9 : AdventDay
+public class Day09 : AdventDay
 {
     private readonly int[,] input;
     private HashSet<string> checkedPoints;
@@ -12,7 +12,7 @@ public class Day9 : AdventDay
     /// Initializes the class representing the advent day 9.
     /// </summary>
     /// <param name="isExample">Should example input be used.</param>
-    public Day9(bool isExample = false) : base(9, isExample)
+    public Day09(bool isExample = false) : base(9, isExample)
     {
         var inputLines = this.InputContents
             .Split('\n', StringSplitOptions.TrimEntries);

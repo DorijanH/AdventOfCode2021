@@ -3,7 +3,7 @@
 /// <summary>
 /// Class representing the advent day 4.
 /// </summary>
-public class Day4 : AdventDay
+public class Day04 : AdventDay
 {
     private readonly List<int> numbersToDraw;
     private readonly List<BingoBoard> bingoBoards = new();
@@ -12,7 +12,7 @@ public class Day4 : AdventDay
     /// Initializes the class representing the advent day 4.
     /// </summary>
     /// <param name="isExample">Should example input be used.</param>
-    public Day4(bool isExample = false) : base(4, isExample)
+    public Day04(bool isExample = false) : base(4, isExample)
     {
         var inputSections = this.InputContents
             .Replace("\r", "")

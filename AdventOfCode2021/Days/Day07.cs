@@ -3,7 +3,7 @@
 /// <summary>
 /// Class representing the advent day 7.
 /// </summary>
-public class Day7 : AdventDay
+public class Day07 : AdventDay
 {
     private readonly int[] inputs;
 
@@ -11,7 +11,7 @@ public class Day7 : AdventDay
     /// Initializes the class representing the advent day 7.
     /// </summary>
     /// <param name="isExample">Should example input be used.</param>
-    public Day7(bool isExample = false) : base(7, isExample)
+    public Day07(bool isExample = false) : base(7, isExample)
     {
         this.inputs = this.InputContents
             .Split(',', StringSplitOptions.TrimEntries)

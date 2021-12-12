@@ -11,9 +11,9 @@ public abstract class AdventDay
     public bool IsExample { get; set; }
 
     /// <summary>
-    /// Number representing the day of the month.
+    /// String representing the day of the month.
     /// </summary>
-    public int Day { get; set; }
+    public string Day { get; set; }
 
     /// <summary>
     /// Day input text file contents.
@@ -28,7 +28,7 @@ public abstract class AdventDay
     /// <param name="isExample">Should example input be used flag.</param>
     protected AdventDay(int day, bool isExample)
     {
-        this.Day = day;
+        this.Day = day.ToString("D2");
         this.IsExample = isExample;
     }
 

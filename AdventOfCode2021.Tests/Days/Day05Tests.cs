@@ -6,12 +6,12 @@ namespace AdventOfCode2021.Tests.Days;
 /// <summary>
 /// Advent day 5 tests class.
 /// </summary>
-public class Day5Tests : TestBase
+public class Day05Tests : TestBase
 {
     /// <summary>
     /// Advent day 5 tests class constructor.
     /// </summary>
-    public Day5Tests() : base(new Day5(true))
+    public Day05Tests() : base(new Day05(true))
     {
     }
 
